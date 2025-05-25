@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandra Morschel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Navbar-->        
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> <img src="./Images/Morschel-logo-klein.png" alt="Alexandra Morschel Logo" height="50">Alexandra Morschel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./praxis.html" style="padding-right: 1rem;">Die Praxis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./person.html" style="padding-right: 1rem;">Über mich</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./therapieangebot.html" style="padding-right: 1rem;">Therapieangebote</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./therapieverlauf.html" style="padding-right: 1rem;">Therapie verlauf</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./kosten.html" style="padding-right: 1.5rem;">Kosten</a>
+                        </li>
+                        <li class="nav-item">
+                            <a type="button" href="./kontact.html" class="btn btn-outline-info">Kontact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <main>
+
+        <!--Kontact Hero-->
+        <div class="container col-xl-10 col-xxl-8 px-4 py-5" style="margin-bottom: 8em;">
+            <div class="row align-items-center g-lg-5 py-5">
+                <div class="col-lg-7 text-center text-lg-start bg-white rounded">
+                    <h1>Mein Kontakt</h1>
+                    <p class="col-lg-10 fs-4">Ich brauche etwas anderes here</p>
+                    <div class="container">
+                        <p responsive="True"><img src="./Icons/telephone.svg" width="16px"> | 0 21 73 - 20 77 917 </p>
+                        <br>
+                        <p responsive="True"><img src="./Icons/envelope.svg" width="16px"> | a.morschel@t-online.de</p>
+                        <br>
+                        <p responsive="True"><img src="./Icons/pin-map.svg" width="16px"> | Fröbelstraße 24 Langenfeld</p>
+                    </div> 
+                    <a href="./Downloadables/AlexandraMorschelKontactKarte.vcf" download responsive="True" style="padding-bottom: 1em;">Meine digitale Kontact Karte Herunterladen</a>
+                </div>
+                <div class="col-md-10 mx-auto col-lg-5">
+                    <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+                        <h1 class="text-center">Anfragen</h1>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@gmail.com">
+                            <label for="floatingInput">Email Addresse</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="floatingMessage" placeholder="Schicke mir eine Nachricht hier" style="height: 100px"></textarea>
+                            <label for="floatingMessage">Nachricht</label>
+                        </div>
+                        <button class="w-100 btn btn-lg btn-primary" type="submit" responsive="True">Abschicken</button>
+                        <hr class="my-4">
+                        <small class="text-body-secondary">
+                            Füllen Sie einfach das folgende Formular aus und ich melde mich schnellstmöglich bei Ihnen.
+                        </small>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+    <!--Footer-->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-white">
+        <ul class="nav col-md-4 justify-content-start">
+            <li class="nav-item">
+                <p>Telefon 0 21 73 - 20 77 917</p>
+            </li>
+            <li class="nav-item"><div class="text-divider">|</div></li>
+            <li class="nav-item">
+                <p>Email a.morschel@t-online.de</p>
+            </li>
+        </ul>
+        <img src="./Images/Morschel-logo-klein.png" height="40px" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+        <ul class="nav col-md-4 justify-content-end" style="padding-right: 10px;">
+            <li class="nav-item">
+                <p>Fröbelstraße 24</p>
+            </li>
+            <li class="nav-item"><div class="text-divider">|</div></li>
+            <li class="nav-item">
+                <p>40764 Langenfeld</p>
+            </li>
+        </ul>
+            
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+3iMgGx1pD0f3eUCBh+z6a9K3y+9n" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
