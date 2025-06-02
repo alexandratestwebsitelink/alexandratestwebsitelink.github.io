@@ -46,7 +46,7 @@
                                     Kontact
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu-lg-end">
-                                    <li><a class="dropdown-item" style="color: red;" href="#">Notruf Nummern</a></li>
+                                    <li><a class="dropdown-item" style="color: red;" href="./notruf">Notruf Nummern</a></li>
                                     <li><a class="dropdown-item" href="#">Meinen Kontact</a></li>
                                 </ul>
                         </li>
@@ -79,243 +79,136 @@
         <!--Features 1-->
         <div class="container px-4 py-5" id="weiss-und-rund-outline">
             <h2 class="pb-2 border-bottom border-2 border-dark">Der Therapieablauf</h2>
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
                 <div class="col">
-                    <div class="card" style="width: 100%; border: grey solid 2px" id="no-bg">
+                    <div class="card" style="border: grey solid 2px" id="no-bg">
                         <div class="card-body">
-                            <h5 class="border-bottom border-1 border-dark">Psychotherapeutische Sprechstunden</h5>
-                            <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Mehr Erfahren
-                            </button>
+                            <h4 class="border-bottom border-2 border-dark">Wählen Sie sich ein Thema aus:</h4>
+                            <ol>
+                                <li>
+                                    <a class="btn btn-link" data-bs-toggle="collapse" href="#NeuBehandlungsabläufe" role="button" aria-expanded="false" aria-controls="textContent">
+                                        Neu Behandlungsabläufe
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-link" data-bs-toggle="collapse" href="#PsychotherapeutischeSprechstunden" role="button" aria-expanded="false" aria-controls="textContent">
+                                        Psychotherapeutische Sprechstunden
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-link" data-bs-toggle="collapse" href="#PsychosomatischeGrundversorgung" role="button" aria-expanded="false" aria-controls="textContent">
+                                        Psychosomatische Grundversorgung
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-link" data-bs-toggle="collapse" href="#GruppenpsychotherapeutischeGrundversorgung" role="button" aria-expanded="false" aria-controls="textContent">
+                                        Gruppenpsychotherapeutische Grundversorgung
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-link" data-bs-toggle="collapse" href="#Akuttherapie" role="button" aria-expanded="false" aria-controls="textContent">
+                                        Akuttherapie
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-link" data-bs-toggle="collapse" href="#ProbatorischeEinzelundGruppensitzungen" role="button" aria-expanded="false" aria-controls="textContent">
+                                        Probatorische Einzel- und Gruppensitzungen
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-link" data-bs-toggle="collapse" href="#AntragbeiderKrankenkasse" role="button" aria-expanded="false" aria-controls="textContent">
+                                        Antrag bei der Krankenkasse
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-link" data-bs-toggle="collapse" href="#Behandlung" role="button" aria-expanded="false" aria-controls="textContent">
+                                        Behandlung
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-link" data-bs-toggle="collapse" href="#Rezidivprophylaxe" role="button" aria-expanded="false" aria-controls="textContent">
+                                        Rezidivprophylaxe
+                                    </a>
+                                </li>
+                            </ol>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 100%; border: grey solid 2px" id="no-bg">
-                        <div class="card-body">
-                            <h5 class="border-bottom border-1 border-dark">Psychosomatische Grundversorgung</h5>
-                            <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Mehr Erfahren
-                            </button>
+                    <div class="collapse mt-3" id="NeuBehandlungsabläufe">
+                        <div class="card card-body">
+                            Diese meisten Abläufe können sowohl in der Praxis als auch durch online-Videosprechstunden stattfinden.
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 100%; border: grey solid 2px" id="no-bg">
-                        <div class="card-body">
-                            <h5 class="border-bottom border-1 border-dark">Gruppenpsychotherapeutische Grundversorgung</h5>
-                            <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Mehr Erfahren
-                            </button>
+                    <div class="collapse mt-3" id="PsychotherapeutischeSprechstunden">
+                        <div class="card card-body">
+                            In diesen Sitzungen geht es um ein Gemeinsames kennenlernen, eine erste Anamnese wird erhoben 
+                            (Anmeldegrund, Beschwerden), Ihre/Deine Wünsche und Ziele werden erarbeitet sowie eine erste 
+                            diagnostische Einschätzung wird gegeben. Es wird geklärt, ob ein Verdacht auf eine psychische 
+                            Krankheit besteht. Eine Akuttherapie, eine Psychotherapie benötigt wird oder Gespräche in einer 
+                            Gruppe helfen können oder ob mit anderen Unterstützungs- und Beratungsangeboten geholfen werden 
+                            kann. Auch erste therapeutische Interventionen sind möglich. Zudem gibt es die Möglichkeit, 
+                            Rahmenbedingungen der Therapie zu besprechen und Fragen zu klären. Selbstverständlich besteht 
+                            Schweigepflicht.
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 100%; border: grey solid 2px" id="no-bg">
-                        <div class="card-body">
-                            <h5 class="border-bottom border-1 border-dark">Akuttherapie</h5>
-                            <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Mehr Erfahren
-                            </button>
+                    <div class="collapse mt-3" id="PsychosomatischeGrundversorgung">
+                        <div class="card card-body">
+                            Entspannungsverfahren wie Progressive Muskelrelaxation nach Edmund Jacobsen (PMR) und Autogenes 
+                            Training sind anerkannte Basistherapien und haben ihre Wirksamkeit bei der Behandlung von Angst, 
+                            Stress sowie psychosomatischen und chronisch-somatischen Erkrankungen umfassend bewiesen. 
+                            Sie werden je nach Bedarf in der Gruppe oder im Einzelsetting angewendet.
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 100%; border: grey solid 2px" id="no-bg">
-                        <div class="card-body">
-                            <h5 class="border-bottom border-1 border-dark">Probatorische Einzel- und Gruppensitzungen</h5>
-                            <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Mehr Erfahren
-                            </button>
+                    <div class="collapse mt-3" id="GruppenpsychotherapeutischeGrundversorgung">
+                        <div class="card card-body">
+                            Dieses psychotherapeutische Angebot in der Gruppe ist für diejenigen, bei denen in der 
+                            psychotherapeutischen Sprechstunde eine Indikation zur Anwendung von Psychotherapie 
+                            festgestellt wurde. Sie dient zur weiteren Klärung, ob eine Gruppenpsychotherapie helfen 
+                            kann.
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 100%; border: grey solid 2px" id="no-bg">
-                        <div class="card-body">
-                            <h5 class="border-bottom border-1 border-dark">Antrag bei der Krankenkasse</h5>
-                            <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Mehr Erfahren
-                            </button>
+                    <div class="collapse mt-3" id="Akuttherapie">
+                        <div class="card card-body">
+                            Die Akutbehandlung soll zur Besserung akuter psychischer Krisen beitragen.
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 100%; border: grey solid 2px" id="no-bg">
-                        <div class="card-body">
-                            <h5 class="border-bottom border-1 border-dark">Behandlung</h5>
-                            <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Mehr Erfahren
-                            </button>
+                    <div class="collapse mt-3" id="ProbatorischeEinzelundGruppensitzungen">
+                        <div class="card card-body">
+                            In den Sitzungen werden psychodiagnostische Untersuchungen durchgeführt und die biographische 
+                            Anamnese besprochen, um die Art und das Ausmaß der Symptome zu erfassen. Vervollständigt 
+                            werden die Untersuchungen durch einen Arzt, der abklärt, ob körperliche Ursachen an 
+                            der Entstehung der Symptome beteiligt sind. Die Diagnose dient der Entscheidungsfindung, 
+                            welches Therapieverfahren und welche Therapieform Einzel- oder Gruppentherapie oder eine 
+                            Kombinationsbehandlung aus beidem passend ist. Die Empfehlung, die Begründung und die 
+                            Entscheidung zur Therapie wird gemeinsam mit den Eltern und dem Kind oder dem Jugendlichen, 
+                            bzw. jungen Erwachsenen besprochen und vereinbart.
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 100%; border: grey solid 2px" id="no-bg">
-                        <div class="card-body">
-                            <h5 class="border-bottom border-1 border-dark">Rezidivprophylaxe</h5>
-                            <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Mehr Erfahren
-                            </button>
+                    <div class="collapse mt-3" id="AntragbeiderKrankenkasse">
+                        <div class="card card-body">
+                            Ist eine Psychotherapie indiziert, wird der Antrag bei der Krankenkasse gestellt. Je nach 
+                            Symptomatik kann eine Kurzzeit- oder Langzeittherapie in Einzel- oder als Gruppentherapie 
+                            oder eine Kombinationsbehandlung beantragt werden. 
+                        </div>
+                    </div>
+                    <div class="collapse mt-3" id="Behandlung">
+                        <div class="card card-body">
+                            Nach der Bewilligung der Therapie durch Ihre Krankenkasse kann mit der Behandlung begonnen 
+                            werden. Diese unterteilt sich in eine Anfangsphase, eine Therapiephase und eine Abschlussphase.
+                        </div>
+                    </div>
+                    <div class="collapse mt-3" id="Rezidivprophylaxe">
+                        <div class="card card-body">
+                            Nach Beendigung einer Langzeittherapie kann bei Bedarf eine Rezidivprophylaxe erfolgen, 
+                            um Rückfälle zu vermeiden. Dafür werden dann Stunden aus dem Kontingent der Langzeittherapie 
+                            genutzt.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="false">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Psychotherapeutische Sprechstunden</h5>
-                    </div>
-                    <div class="modal-body">
-                        In diesen Sitzungen geht es um ein Gemeinsames kennenlernen, eine erste Anamnese wird erhoben 
-                        (Anmeldegrund, Beschwerden), Ihre/Deine Wünsche und Ziele werden erarbeitet sowie eine erste 
-                        diagnostische Einschätzung wird gegeben. Es wird geklärt, ob ein Verdacht auf eine psychische 
-                        Krankheit besteht. Eine Akuttherapie, eine Psychotherapie benötigt wird oder Gespräche in einer 
-                        Gruppe helfen können oder ob mit anderen Unterstützungs- und Beratungsangeboten geholfen werden 
-                        kann. Auch erste therapeutische Interventionen sind möglich. Zudem gibt es die Möglichkeit, 
-                        Rahmenbedingungen der Therapie zu besprechen und Fragen zu klären. Selbstverständlich besteht 
-                        Schweigepflicht.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="false">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Psychosomatische Grundversorgung</h5>
-                    </div>
-                    <div class="modal-body">
-                        Entspannungsverfahren wie Progressive Muskelrelaxation nach Edmund Jacobsen (PMR) 
-                        und Autogenes Training sind anerkannte Basistherapien und haben ihre Wirksamkeit 
-                        bei der Behandlung von Angst, Stress sowie psychosomatischen und chronisch-somatischen 
-                        Erkrankungen umfassend bewiesen. Sie werden je nach Bedarf in der Gruppe oder im 
-                        Einzelsetting angewendet.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="false">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Gruppenpsychotherapeutische Grundversorgung</h5>
-                    </div>
-                    <div class="modal-body">
-                        Dieses psychotherapeutische Angebot in der Gruppe ist für diejenigen, bei denen in der 
-                        psychotherapeutischen Sprechstunde eine Indikation zur Anwendung von Psychotherapie 
-                        festgestellt wurde. Sie dient zur weiteren Klärung, ob eine Gruppenpsychotherapie 
-                        helfen kann.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="false">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Akuttherapie</h5>
-                    </div>
-                    <div class="modal-body">
-                        Die Akutbehandlung soll zur Besserung akuter psychischer Krisen beitragen.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="false">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Probatorische Einzel- und Gruppensitzungen</h5>
-                    </div>
-                    <div class="modal-body">
-                        In den Sitzungen werden psychodiagnostische Untersuchungen durchgeführt und die biographische 
-                        Anamnese besprochen, um die Art und das Ausmaß der Symptome zu erfassen. Vervollständigt werden 
-                        die Untersuchungen durch einen Arzt, der abklärt, ob körperliche Ursachen an der Entstehung der 
-                        Symptome beteiligt sind. Die Diagnose dient der Entscheidungsfindung, welches Therapieverfahren 
-                        und welche Therapieform Einzel- oder Gruppentherapie oder eine Kombinationsbehandlung aus beidem 
-                        passend ist. Die Empfehlung, die Begründung und die Entscheidung zur Therapie wird gemeinsam 
-                        mit den Eltern und dem Kind oder dem Jugendlichen, bzw. jungen Erwachsenen besprochen und vereinbart.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="false">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Antrag bei der Krankenkasse</h5>
-                    </div>
-                    <div class="modal-body">
-                        Ist eine Psychotherapie indiziert, wird der Antrag bei der Krankenkasse gestellt. Je nach 
-                        Symptomatik kann eine Kurzzeit- oder Langzeittherapie in Einzel- oder als Gruppentherapie 
-                        oder eine Kombinationsbehandlung beantragt werden. 
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="false">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Antrag bei der Krankenkasse</h5>
-                    </div>
-                    <div class="modal-body">
-                        Nach der Bewilligung der Therapie durch Ihre Krankenkasse kann mit der Behandlung begonnen werden. 
-                        Diese unterteilt sich in eine Anfangsphase, eine Therapiephase und eine Abschlussphase.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="false">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Rezidivprophylaxe</h5>
-                    </div>
-                    <div class="modal-body">
-                        Nach Beendigung einer Langzeittherapie kann bei Bedarf eine Rezidivprophylaxe erfolgen, 
-                        um Rückfälle zu vermeiden. Dafür werden dann Stunden aus dem Kontingent der 
-                        Langzeittherapie genutzt.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
         <!--Schnelles Impressum-->
         <div class="container" style="padding-block: 4%;">
             <div class="row featurette rounded bg-white">
