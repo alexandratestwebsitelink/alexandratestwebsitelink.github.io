@@ -14,7 +14,13 @@
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"> <img src="./Images/Morschel-logo-klein.png" alt="Alexandra Morschel Logo" height="50">Alexandra Morschel</a>
+                <a class="navbar-brand" href="index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+                    <img src="./Images/Morschel-logo-klein.png" alt="Alexandra Morschel Logo" height="50">
+                    <span style="display: flex; flex-direction: column; line-height: 1.2;">
+                        <span style="font-weight: bold; font-size: 1.1em;">Alexandra Morschel</span>
+                        <span class="navbar-subtitle" style="font-size: 0.8em; color: #666;">Kinder- u. Jugendlichenpsychotherapeutin</span>
+                    </span>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -43,7 +49,7 @@
                         </li>
                         <li class="nav-item">
                             <button type="button" class="btn btn-outline-info dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" responsive="True">
-                                Kontact
+                                Kontakt
                             </button>
                             <ul class="dropdown-menu dropdown-menu-lg-end">
                                 <li><a class="dropdown-item" href="kontact.html">Meinen Kontakt</a></li>
@@ -67,10 +73,10 @@
                     <div class="bg-white bg-opacity-50 rounded p-4">
                         <h1 class="Geschriebener-text" style="font-weight: 1000;">Herzlich Willkommen</h1>
                         <p class="lead">
-                            Als Kinder- und Jugendlichenpsychotherapeutin behandle ich Kinder, Jugendliche, 
-                            junge Erwachsene bis zu einem Alter von 21 Jahren und biete bei Bedarf deren Eltern und 
-                            Bezugspersonen Unterstützung im Umgang mit seelischen Erkrankungen und komplexen 
-                            Lebenssituationen an.
+                            Als Kinder- u. Jugendlichenpsychotherapeutin behandle ich 
+                            Kinder, Jugendliche, junge Erwachsene bis zu einem Alter von 21 Jahren und 
+                            biete deren Eltern und Bezugspersonen Unterstützung im Umgang
+                            mit seelischen Erkrankungen und komplexen Lebenssituationen an.
                         </p>
                     </div>
                 </div>
@@ -79,7 +85,7 @@
 
         <!--Features 1-->
         <div class="container px-4 py-5" id="weiss-und-rund-outline">
-            <h2 class="pb-2 border-bottom border-2 border-dark">Die Behandlungs methoden</h2>
+            <h2 class="pb-2 border-bottom border-2 border-dark">Die Behandlungsmethoden </h2>
             <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
                 <div class="col">
                     <div class="card" style="border: grey solid 2px" id="no-bg">
@@ -104,25 +110,24 @@
                     <div id="methodenAccordion">
                         <div class="collapse mt-3" id="NeuBehandlungsabläufe" data-bs-parent="#methodenAccordion">
                             <div class="card card-body">
-                                Diese meisten Abläufe können sowohl in der Praxis als auch durch online-Videosprechstunden stattfinden.
+                                Die Behandlungsabläufe finden in der Praxis statt, einige können auch als online-Videosprechstunde 
+                                durchgeführt werden. Selbstverständlich besteht Schweigepflicht.
                             </div>
                         </div>
                         <div class="collapse mt-3" id="PsychotherapeutischeSprechstunden" data-bs-parent="#methodenAccordion">
                             <div class="card card-body">
                                 In diesen Sitzungen geht es um ein Gemeinsames kennenlernen, eine erste Anamnese wird erhoben 
-                                (Anmeldegrund, Beschwerden), Ihre/Deine Wünsche und Ziele werden erarbeitet sowie eine erste 
-                                diagnostische Einschätzung wird gegeben. Es wird geklärt, ob ein Verdacht auf eine psychische 
-                                Krankheit besteht. Eine Akuttherapie, eine Psychotherapie benötigt wird oder Gespräche in 
-                                einer Gruppe helfen können oder ob mit anderen Unterstützungs- und Beratungsangeboten geholfen 
-                                werden kann. Auch erste therapeutische Interventionen sind möglich. Zudem gibt es die 
-                                Möglichkeit, Rahmenbedingungen der Therapie zu besprechen und Fragen zu klären. 
-                                Selbstverständlich besteht Schweigepflicht.
+                                (Anmeldegrund, Beschwerden), Wünsche und Ziele werden erarbeitet sowie eine erste 
+                                diagnostische Einschätzung wird gegeben. Es wird geklärt, ob ein Verdacht auf eine 
+                                psychische Krankheit besteht oder ob mit anderen Unterstützungs- und Beratungsangeboten geholfen 
+                                werden kann. Auch erste therapeutische Interventionen sind möglich. Zudem gibt es die Möglichkeit, 
+                                Rahmenbedingungen zu besprechen und Fragen zu klären. 
                             </div>
                         </div>
                         <div class="collapse mt-3" id="PsychosomatischeGrundversorgung" data-bs-parent="#methodenAccordion">
                             <div class="card card-body">
                                 Entspannungsverfahren wie Progressive Muskelrelaxation nach Edmund Jacobsen (PMR) und Autogenes 
-                                Training sind anerkannte Basistherapien und haben ihre Wirksamkeit bei der Behandlung von Angst, 
+                                Training sind anerkannte Therapien und haben ihre Wirksamkeit bei der Behandlung von Angst, 
                                 Stress sowie psychosomatischen und chronisch-somatischen Erkrankungen umfassend bewiesen. 
                                 Sie werden je nach Bedarf in der Gruppe oder im Einzelsetting angewendet.
                             </div>
@@ -130,24 +135,26 @@
                         <div class="collapse mt-3" id="GruppenpsychotherapeutischeGrundversorgung" data-bs-parent="#methodenAccordion">
                             <div class="card card-body">
                                 Dieses psychotherapeutische Angebot in der Gruppe ist für diejenigen, bei denen in der 
-                                psychotherapeutischen Sprechstunde eine Indikation zur Anwendung von Psychotherapie festgestellt wurde. 
-                                Sie dient zur weiteren Klärung, ob eine Gruppenpsychotherapie helfen kann.
+                                psychotherapeutischen Sprechstunde eine Indikation zur Anwendung von Psychotherapie festgestellt 
+                                wurde. Sie dient zur weiteren Klärung, ob eine Gruppenpsychotherapie helfen kann.
                             </div>
                         </div>
                         <div class="collapse mt-3" id="Akuttherapie" data-bs-parent="#methodenAccordion">
                             <div class="card card-body">                              
-                                Die Akutbehandlung soll zur Besserung akuter psychischer Krisen beitragen.
+                                Die Akutbehandlung soll zur Besserung akuter psychischer Krisen beitragen. Sie wird auch zur 
+                                Stabilisierung und zur Vorbereitung auf eine Psychotherapie oder anderen ambulanten, teil- 
+                                oder vollstationären Maßnahmen angewendet.
                             </div>
                         </div>
                         <div class="collapse mt-3" id="ProbatorischeEinzelundGruppensitzungen" data-bs-parent="#methodenAccordion">
                             <div class="card card-body">
-                                In den Sitzungen werden psychodiagnostische Untersuchungen durchgeführt und die biographische Anamnese 
-                                besprochen, um die Art und das Ausmaß der Symptome zu erfassen. Vervollständigt werden die 
-                                Untersuchungen durch einen Arzt, der abklärt, ob körperliche Ursachen an der Entstehung der Symptome 
-                                beteiligt sind. Die Diagnose dient der Entscheidungsfindung, welches Therapieverfahren und welche 
-                                Therapieform Einzel- oder Gruppentherapie oder eine Kombinationsbehandlung aus beidem passend ist. Die 
-                                Empfehlung, die Begründung und die Entscheidung zur Therapie wird gemeinsam mit den Eltern/Bezugspersonen und dem 
-                                Kind oder dem Jugendlichen, bzw. jungen Erwachsenen besprochen und vereinbart.
+                                In den Sitzungen werden psychodiagnostische Untersuchungen durchgeführt und die biographische 
+                                Anamnese besprochen, um die Art und das Ausmaß der Symptome zu erfassen. Vervollständigt 
+                                werden die Untersuchungen durch einen Arzt, der abklärt, ob körperliche Ursachen an der 
+                                Entstehung der Symptome beteiligt sind. Die Diagnose dient der Entscheidungsfindung, welches 
+                                Therapieverfahren und welche Therapieform passend ist. Die Empfehlung, die Begründung und die 
+                                Entscheidung zur Therapie wird gemeinsam besprochen und vereinbart. 
+
                             </div>
                         </div>
                         <div class="collapse mt-3" id="AntragbeiderKrankenkasse" data-bs-parent="#methodenAccordion">
@@ -188,12 +195,12 @@
                         Erwachsene in herausfordernden Lebensphasen. Mit Empathie, Klarheit und fachlicher 
                         Kompetenz biete ich einen geschützten Raum zur persönlichen Entwicklung. Gemeinsam 
                         arbeiten wir an individuellen Lösungen, stärken Ressourcen und fördern psychische 
-                        Gesundheit. Eine vertrauensvolle Beziehung ist dabei zentral - ebenso wie die 
-                        Einbindung von Eltern und Bezugspersonen, um nachhaltige Veränderungen zu ermöglichen.
+                        Gesundheit. Eine vertrauensvolle Beziehung ist dabei zentral. Ebenso können Eltern 
+                        und anderen Bezugspersonen eingebunden werden, um nachhaltige Veränderungen zu ermöglichen.
                     </p>
                 </div>
                 <div class="col-md-5 md-order-1">
-                    <img src="./Icons/card-image.svg" width="100%" height="300px" responsive="True">
+                    <img src="./Images/blume.png" width="100%" height="300px" responsive="True">
                 </div>
             </div>
         </div>
@@ -201,28 +208,41 @@
     </main>
 
     <!--Footer-->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-white">
-        <ul class="nav col-md-4 justify-content-start">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-white"> 
+        <ul class="nav flex-column col-md-4 justify-content-start" style="padding-left: 10px;">
             <li class="nav-item">
-                <p>Telefon 0 21 73 - 20 77 917</p>
+            <p>
+                <a href="tel:021732077917" style="text-decoration: none; color: inherit;">Telefon 0 21 73 - 20 77 917</a>
+            </p>
             </li>
-            <li class="nav-item"><div class="text-divider">|</div></li>
             <li class="nav-item">
-                <p>Email a.morschel@t-online.de</p>
+            <p>
+                <a href="mailto:a.morschel@t-online.de" style="text-decoration: none; color: inherit;">Email a.morschel@t-online.de</a>
+            </p>
+            </li>
+            <li class="nav-item">
+            <p>
+                KJP Praxis Morschel
+            </p>
             </li>
         </ul>
+
         <img src="./Images/Morschel-logo-klein.png" height="40px" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
-        <ul class="nav col-md-4 justify-content-end" style="padding-right: 10px;">
+
+        <ul class="nav flex-column col-md-4 align-items-end" style="padding-right: 10px;">
             <li class="nav-item">
-                <p>Fröbelstraße 24</p>
+            <p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Fröbelstraße+24+40764+Langenfeld" target="_blank" style="text-decoration: none; color: inherit;">Fröbelstraße 24</a>
+            </p>
             </li>
-            <li class="nav-item"><div class="text-divider">|</div></li>
             <li class="nav-item">
-                <p>40764 Langenfeld</p>
+            <p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Fröbelstraße+24+40764+Langenfeld" target="_blank" style="text-decoration: none; color: inherit;">40764 Langenfeld</a>
+            </p>
             </li>
         </ul>
-            
     </footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

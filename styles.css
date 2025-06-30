@@ -147,3 +147,9 @@ main {
 .nav-link.dropdown-toggle::after {
   display: none;
 }
+
+@media (max-width: 991.98px) {
+  .navbar-subtitle {
+    display: none;
+  }
+}

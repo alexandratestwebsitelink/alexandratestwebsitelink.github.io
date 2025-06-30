@@ -9,10 +9,16 @@
 </head>
 <body class="d-flex flex-column min-vh-100">
 
-        <!--Navbar-->
+<!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"> <img src="./Images/Morschel-logo-klein.png" alt="Alexandra Morschel Logo" height="50">Alexandra Morschel</a>
+                <a class="navbar-brand" href="index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+                    <img src="./Images/Morschel-logo-klein.png" alt="Alexandra Morschel Logo" height="50">
+                    <span style="display: flex; flex-direction: column; line-height: 1.2;">
+                        <span style="font-weight: bold; font-size: 1.1em;">Alexandra Morschel</span>
+                        <span class="navbar-subtitle" style="font-size: 0.8em; color: #666;">Kinder- u. Jugendlichenpsychotherapeutin</span>
+                    </span>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -41,11 +47,11 @@
                         </li>
                         <li class="nav-item">
                             <button type="button" class="btn btn-outline-info dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" responsive="True">
-                                Kontact
+                                Kontakt
                             </button>
                             <ul class="dropdown-menu dropdown-menu-lg-end">
                                 <li><a class="dropdown-item" href="kontact.html">Meinen Kontakt</a></li>
-                                <li><a class="dropdown-item" style="color: red;" href="./notruf.html">Notruf Nummern</a></li>
+                                <li><a class="dropdown-item" style="color: red;" href="notruf.html">Notruf Nummern</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -140,26 +146,39 @@
     </main>
 
     <!--Footer-->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-white">
-        <ul class="nav col-md-4 justify-content-start">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-white"> 
+        <ul class="nav flex-column col-md-4 justify-content-start" style="padding-left: 10px;">
             <li class="nav-item">
-                <p>Telefon 0 21 73 - 20 77 917</p>
+            <p>
+                <a href="tel:021732077917" style="text-decoration: none; color: inherit;">Telefon 0 21 73 - 20 77 917</a>
+            </p>
             </li>
-            <li class="nav-item"><div class="text-divider">|</div></li>
             <li class="nav-item">
-                <p>Email a.morschel@t-online.de</p>
+            <p>
+                <a href="mailto:a.morschel@t-online.de" style="text-decoration: none; color: inherit;">Email a.morschel@t-online.de</a>
+            </p>
+            </li>
+            <li class="nav-item">
+            <p>
+                KJP Praxis Morschel
+            </p>
             </li>
         </ul>
+
         <img src="./Images/Morschel-logo-klein.png" height="40px" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
-        <ul class="nav col-md-4 justify-content-end" style="padding-right: 10px;">
+
+        <ul class="nav flex-column col-md-4 align-items-end" style="padding-right: 10px;">
             <li class="nav-item">
-                <p>Fröbelstraße 24</p>
+            <p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Fröbelstraße+24+40764+Langenfeld" target="_blank" style="text-decoration: none; color: inherit;">Fröbelstraße 24</a>
+            </p>
             </li>
-            <li class="nav-item"><div class="text-divider">|</div></li>
             <li class="nav-item">
-                <p>40764 Langenfeld</p>
+            <p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Fröbelstraße+24+40764+Langenfeld" target="_blank" style="text-decoration: none; color: inherit;">40764 Langenfeld</a>
+            </p>
             </li>
-        </ul>                
+        </ul>
     </footer>
 
 
