@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandra Morschel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+                    <img src="./Images/Morschel-logo-klein.png" alt="Alexandra Morschel Logo" height="50">
+                    <span style="display: flex; flex-direction: column; line-height: 1.2;">
+                        <span style="font-weight: bold; font-size: 1.1em;">Alexandra Morschel</span>
+                        <span class="navbar-subtitle" style="font-size: 0.8em; color: #666;">Kinder- u. Jugendlichenpsychotherapeutin</span>
+                    </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./praxis.html" style="padding-right: 1rem;">Die Praxis</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Über mich
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="person.html">Werdegang</a></li>
+                                <li><a class="dropdown-item" href="impressum.html">Impressum</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./therapieverlauf.html" style="padding-right: 1rem;">Therapieverlauf</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./therapieangebot.html" style="padding-right: 1rem;">Therapieangebote</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./kosten.html" style="padding-right: 1.5rem;">Kosten</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-info dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" responsive="True">
+                                Kontakt
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-lg-end">
+                                <li><a class="dropdown-item" href="kontact.html">Meinen Kontakt</a></li>
+                                <li><a class="dropdown-item" style="color: red;" href="notruf.html">Notrufnummern</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+
+        <!--Hero-->
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="./Images/20250514_115102.jpg" alt="Bild von der Praxis" class="d-block mx-lg-auto img-fluid" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-white bg-opacity-50 rounded p-4">
+                        <h1 class="Geschriebener-text" style="font-weight: 1000;">Herzlich Willkommen</h1>
+                        <p class="lead">
+                            Als Kinder- u. Jugendlichenpsychotherapeutin behandle ich 
+                            Kinder, Jugendliche, junge Erwachsene bis zu einem Alter von 21 Jahren und 
+                            biete deren Eltern und Bezugspersonen Unterstützung im Umgang
+                            mit seelischen Erkrankungen und komplexen Lebenssituationen an.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Features 1-->
+        <div class="container px-4 py-5" id="weiss-und-rund-outline">
+            <h2 class="pb-2 border-bottom border-2 border-dark">Die Behandlungsmethoden </h2>
+            <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div class="card" style="border: grey solid 2px" id="no-bg">
+                        <div class="card-body">
+                            <h4 class="border-bottom border-2 border-dark">Wählen Sie sich ein Thema aus:</h4>
+                            <ul>
+                                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#NeuBehandlungsabläufe" role="button" aria-expanded="false" aria-controls="NeuBehandlungsabläufe">Behandlungsabläufe</a></li>
+                                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#PsychotherapeutischeSprechstunden" role="button" aria-expanded="false" aria-controls="PsychotherapeutischeSprechstunden">Psychotherapeutische Sprechstunden</a></li>
+                                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#PsychosomatischeGrundversorgung" role="button" aria-expanded="false" aria-controls="PsychosomatischeGrundversorgung">Psychosomatische Grundversorgung</a></li>
+                                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#GruppenpsychotherapeutischeGrundversorgung" role="button" aria-expanded="false" aria-controls="GruppenpsychotherapeutischeGrundversorgung">Gruppenpsychotherapeutische Grundversorgung</a></li>
+                                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#Akuttherapie" role="button" aria-expanded="false" aria-controls="Akuttherapie">Akuttherapie</a></li>
+                                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#ProbatorischeEinzelundGruppensitzungen" role="button" aria-expanded="false" aria-controls="ProbatorischeEinzelundGruppensitzungen">Probatorische Einzel- und Gruppensitzungen</a></li>
+                                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#AntragbeiderKrankenkasse" role="button" aria-expanded="false" aria-controls="AntragbeiderKrankenkasse">Antrag bei der Krankenkasse</a></li>
+                                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#Behandlung" role="button" aria-expanded="false" aria-controls="Behandlung">Behandlung</a></li>
+                                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#Rezidivprophylaxe" role="button" aria-expanded="false" aria-controls="Rezidivprophylaxe">Rezidivprophylaxe</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div id="methodenAccordion">
+                        <div class="collapse mt-3" id="NeuBehandlungsabläufe" data-bs-parent="#methodenAccordion">
+                            <div class="card card-body">
+                                Die Behandlungsabläufe finden in der Praxis statt, einige können auch als online-Videosprechstunde 
+                                durchgeführt werden. Selbstverständlich besteht Schweigepflicht.
+                            </div>
+                        </div>
+                        <div class="collapse mt-3" id="PsychotherapeutischeSprechstunden" data-bs-parent="#methodenAccordion">
+                            <div class="card card-body">
+                                In diesen Sitzungen geht es um ein Gemeinsames kennenlernen, eine erste Anamnese wird erhoben 
+                                (Anmeldegrund, Beschwerden), Wünsche und Ziele werden erarbeitet sowie eine erste 
+                                diagnostische Einschätzung wird gegeben. Es wird geklärt, ob ein Verdacht auf eine 
+                                psychische Krankheit besteht oder ob mit anderen Unterstützungs- und Beratungsangeboten geholfen 
+                                werden kann. Auch erste therapeutische Interventionen sind möglich. Zudem gibt es die Möglichkeit, 
+                                Rahmenbedingungen zu besprechen und Fragen zu klären. 
+                            </div>
+                        </div>
+                        <div class="collapse mt-3" id="PsychosomatischeGrundversorgung" data-bs-parent="#methodenAccordion">
+                            <div class="card card-body">
+                                Entspannungsverfahren wie Progressive Muskelrelaxation nach Edmund Jacobsen (PMR) und Autogenes 
+                                Training sind anerkannte Therapien und haben ihre Wirksamkeit bei der Behandlung von Angst, 
+                                Stress sowie psychosomatischen und chronisch-somatischen Erkrankungen umfassend bewiesen. 
+                                Sie werden je nach Bedarf in der Gruppe oder im Einzelsetting angewendet.
+                            </div>
+                        </div>
+                        <div class="collapse mt-3" id="GruppenpsychotherapeutischeGrundversorgung" data-bs-parent="#methodenAccordion">
+                            <div class="card card-body">
+                                Dieses psychotherapeutische Angebot in der Gruppe ist für diejenigen, bei denen in der 
+                                psychotherapeutischen Sprechstunde eine Indikation zur Anwendung von Psychotherapie festgestellt 
+                                wurde. Sie dient zur weiteren Klärung, ob eine Gruppenpsychotherapie helfen kann.
+                            </div>
+                        </div>
+                        <div class="collapse mt-3" id="Akuttherapie" data-bs-parent="#methodenAccordion">
+                            <div class="card card-body">                              
+                                Die Akutbehandlung soll zur Besserung akuter psychischer Krisen beitragen. Sie wird auch zur 
+                                Stabilisierung und zur Vorbereitung auf eine Psychotherapie oder anderen ambulanten, teil- 
+                                oder vollstationären Maßnahmen angewendet.
+                            </div>
+                        </div>
+                        <div class="collapse mt-3" id="ProbatorischeEinzelundGruppensitzungen" data-bs-parent="#methodenAccordion">
+                            <div class="card card-body">
+                                In den Sitzungen werden psychodiagnostische Untersuchungen durchgeführt und die biographische 
+                                Anamnese besprochen, um die Art und das Ausmaß der Symptome zu erfassen. Vervollständigt 
+                                werden die Untersuchungen durch einen Arzt, der abklärt, ob körperliche Ursachen an der 
+                                Entstehung der Symptome beteiligt sind. Die Diagnose dient der Entscheidungsfindung, welches 
+                                Therapieverfahren und welche Therapieform passend ist. Die Empfehlung, die Begründung und die 
+                                Entscheidung zur Therapie wird gemeinsam besprochen und vereinbart. 
+
+                            </div>
+                        </div>
+                        <div class="collapse mt-3" id="AntragbeiderKrankenkasse" data-bs-parent="#methodenAccordion">
+                            <div class="card card-body">
+                                Ist eine Psychotherapie indiziert, wird der Antrag bei der Krankenkasse gestellt. Je nach Symptomatik 
+                                kann eine Kurzzeit- oder Langzeittherapie in Einzel- oder als Gruppentherapie oder eine 
+                                Kombinationsbehandlung beantragt werden.
+                            </div>
+                        </div>
+                        <div class="collapse mt-3" id="Behandlung" data-bs-parent="#methodenAccordion">
+                            <div class="card card-body">
+                                Nach der Bewilligung der Therapie durch Ihre Krankenkasse kann mit der Behandlung begonnen werden. 
+                                Diese unterteilt sich in eine Anfangsphase, eine Therapiephase und eine Abschlussphase.
+                            </div>
+                        </div>
+                        <div class="collapse mt-3" id="Rezidivprophylaxe" data-bs-parent="#methodenAccordion">
+                            <div class="card card-body">
+                                Nach Beendigung einer Langzeittherapie kann bei Bedarf eine Rezidivprophylaxe erfolgen, um 
+                                Rückfälle zu vermeiden. Dafür werden dann Stunden aus dem Kontingent der Langzeittherapie genutzt.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Schnelles Impressum-->
+        <div class="container" style="padding-block: 4%;">
+            <div class="row featurette rounded bg-white">
+                <div class="col-md-7 md-order-0">
+                    <h2 class="featurette-heading fw-normal lh-1" style="padding-top: 10px;">
+                        Zu meiner Person
+                    </h2>
+                    <p>
+                        Ich bin Alexandra Morschel, Kinder- u. Jugendlichenpsychotherapeutin mit fundierter 
+                        Ausbildung und Erfahrung. In meiner Praxis begleite ich Kinder, Jugendliche und junge 
+                        Erwachsene in herausfordernden Lebensphasen. Mit Empathie, Klarheit und fachlicher 
+                        Kompetenz biete ich einen geschützten Raum zur persönlichen Entwicklung an. Gemeinsam 
+                        arbeiten wir an individuellen Lösungen, stärken Ressourcen und fördern psychische 
+                        Gesundheit. Eine vertrauensvolle Beziehung ist dabei zentral. Ebenso können Eltern 
+                        und anderen Bezugspersonen in den Prozess eingebunden werden, um nachhaltige Veränderungen 
+                        zu ermöglichen.
+                    </p>
+                </div>
+                <div class="col-md-5 md-order-1">
+                    <img src="./Images/blume.png" width="100%" height="300px" responsive="True">
+                </div>
+            </div>
+        </div>
+          
+    </main>
+
+    <!--Footer-->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-white"> 
+        <ul class="nav flex-column col-md-4 justify-content-start">
+            <li class="nav-item">
+                <a href="https://www.google.com/maps/search/?api=1&query=Fröbelstraße+24+40764+Langenfeld" target="_blank" style="text-decoration: none; color: inherit;">KJP Praxis Morschel</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.google.com/maps/search/?api=1&query=Fröbelstraße+24+40764+Langenfeld" target="_blank" style="text-decoration: none; color: inherit;">Fröbelstraße 24</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.google.com/maps/search/?api=1&query=Fröbelstraße+24+40764+Langenfeld" target="_blank" style="text-decoration: none; color: inherit;">40764 Langenfeld</a>
+            </li>
+        </ul>
+
+        <img src="./Images/Morschel-logo-klein.png" height="40px" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+
+        <ul class="nav flex-column col-md-4 align-items-end">
+            <li class="nav-item">
+                <a href="tel:021732077917" style="text-decoration: none; color: inherit;">Telefon: 0 21 73 - 20 77 917</a>
+            </li>
+            <li class="nav-item">
+                <a href="mailto:a.morschel@t-online.de" style="text-decoration: none; color: inherit;">Email: a.morschel@t-online.de</a>
+            </li>
+        </ul>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

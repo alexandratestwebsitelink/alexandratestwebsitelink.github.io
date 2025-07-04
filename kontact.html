@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandra Morschel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+                    <img src="./Images/Morschel-logo-klein.png" alt="Alexandra Morschel Logo" height="50">
+                    <span style="display: flex; flex-direction: column; line-height: 1.2;">
+                        <span style="font-weight: bold; font-size: 1.1em;">Alexandra Morschel</span>
+                        <span class="navbar-subtitle" style="font-size: 0.8em; color: #666;">Kinder- u. Jugendlichenpsychotherapeutin</span>
+                    </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./praxis.html" style="padding-right: 1rem;">Die Praxis</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Über mich
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="person.html">Werdegang</a></li>
+                                <li><a class="dropdown-item" href="impressum.html">Impressum</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./therapieverlauf.html" style="padding-right: 1rem;">Therapieverlauf</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./therapieangebot.html" style="padding-right: 1rem;">Therapieangebote</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./kosten.html" style="padding-right: 1.5rem;">Kosten</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-info dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" responsive="True">
+                                Kontact
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-lg-end">
+                                <li><a class="dropdown-item" href="kontact.html">Meinen Kontakt</a></li>
+                                <li>
+                                    <a class="dropdown-item" style="color: red;" data-bs-toggle="collapse" href="#notruf" role="button" aria-expanded="false" aria-controls="textContent">
+                                        Notrufnummern
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+
+    <main>
+
+        <!--Hero-->
+        <div class="container my-5" style="padding-bottom: 6em;">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg bg-white">
+                <div class="col-12 p-3 p-lg-5 pt-lg-3">
+                    <div class="d-flex align-items-center">
+                        <img src="./Images/Morschel-logo-klein.png" width="64px" class="me-3">
+                        <h1 class="h3 fw-bold lh-1 text-body-emphasis mb-0">Meinen Kontakt</h1>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-6 mb-4">
+                            <div class="container in-view">
+                                <p responsive="True" class="bounce-on-hover">
+                                    <a href="tel:021732077917" style="text-decoration: none; color: inherit;">
+                                        <img src="./Icons/telephone.svg" width="16px"> | 0 21 73 - 20 77 917
+                                    </a>
+                                </p>
+                                <br>
+                                <p responsive="True" class="bounce-on-hover">
+                                    <a href="mailto:a.morschel@t-online.de" style="text-decoration: none; color: inherit;">
+                                        <img src="./Icons/envelope.svg" width="16px"> | a.morschel@t-online.de
+                                    </a>
+                                </p>
+                                <br>
+                                <p responsive="True" class="bounce-on-hover">
+                                    <a href="https://www.google.com/maps/search/?api=1&query=Fröbelstraße+24+Langenfeld" target="_blank" style="text-decoration: none; color: inherit;">
+                                        <img src="./Icons/pin-map.svg" width="16px"> | Fröbelstraße 24 Langenfeld
+                                    </a>
+                                </p>
+                                <br>
+                                <a href="./Downloadables/AlexandraMorschelKontactKarte.vcf" download="" responsive="True" style="padding-bottom: 1em;" class="bounce-on-hover">Meine digitale Kontact Karte Herunterladen</a>
+                                
+                                <div class="collapse" id="notruf">
+                                    <div class="card border-danger mb-3">
+                                        <a href="tel:+492119220" style="text-decoration: none; color: inherit; padding-left: 10px; padding-top: 10px;">
+                                            <div class="contact-container">
+                                                <span class="contact-button" aria-label="Call emergency number" style="background-color: red;">
+                                                    <img src="./Icons/telephone.svg" alt="Telephone icon">
+                                                </span>
+                                                <div class="contact-text">                                        
+                                                    <b class="contact-title" style="color: red;">Zentrale Notfallnummer</b>
+                                                    <span class="contact-number">+49 211-922-0</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="tel:+4921732886310" style="text-decoration: none; color: inherit; padding-left: 10px; padding-top: 10px;">
+                                            <div class="contact-container">
+                                                <span class="contact-button" aria-label="Call emergency number" style="background-color: red;">
+                                                    <img src="./Icons/telephone.svg" alt="Telephone icon">
+                                                </span>
+                                                <div class="contact-text">                                        
+                                                    <b class="contact-title" style="color: red;">Polizei Langenfeld</b>
+                                                    <span class="contact-number">+49 2173-288-6310</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="tel:+49116111" style="text-decoration: none; color: inherit; padding-left: 10px; padding-top: 10px;">
+                                            <div class="contact-container">
+                                                <span class="contact-button" aria-label="Call emergency number" style="background-color: red;">
+                                                    <img src="./Icons/telephone.svg" alt="Telephone icon">
+                                                </span>
+                                                <div class="contact-text">                                        
+                                                    <b class="contact-title" style="color: red;">Kinder und Jugendtelefon</b>
+                                                    <span class="contact-number">+49 116-111</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="tel:+49116117" style="text-decoration: none; color: inherit; padding-left: 10px; padding-top: 10px;">
+                                            <div class="contact-container">
+                                                <span class="contact-button" aria-label="Call emergency number">
+                                                    <img src="./Icons/telephone.svg" alt="Telephone icon">
+                                                </span>
+                                                <div class="contact-text">                                        
+                                                    <b class="contact-title">Düsseldorf & Mettmann</b>
+                                                    <span>LVR-Klinikum Düsseldorf</span>
+                                                    <span class="contact-number">+49 116-117</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="tel:+4922147889450" style="text-decoration: none; color: inherit; padding-left: 10px; padding-top: 10px;">
+                                            <div class="contact-container">
+                                                <span class="contact-button" aria-label="Call emergency number">
+                                                    <img src="./Icons/telephone.svg" alt="Telephone icon">
+                                                </span>
+                                                <div class="contact-text">                                        
+                                                    <b class="contact-title">Köln</b>
+                                                    <span>Uniklinik Köln</span>
+                                                    <span class="contact-number">+49 221-478-89450</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="tel:+492191130" style="text-decoration: none; color: inherit; padding-left: 10px; padding-top: 10px;">
+                                            <div class="contact-container">
+                                                <span class="contact-button" aria-label="Call emergency number">
+                                                    <img src="./Icons/telephone.svg" alt="Telephone icon">
+                                                </span>
+                                                <div class="contact-text">                                        
+                                                    <b class="contact-title">Solingen, Wuppertal & Remscheid</b>
+                                                    <span>SANA Klinikum Remscheid</span>
+                                                    <span class="contact-number">+49 2191-13-0</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="tel:+4922189070" style="text-decoration: none; color: inherit; padding-left: 10px; padding-top: 10px;">
+                                            <div class="contact-container">
+                                                <span class="contact-button" aria-label="Call emergency number">
+                                                    <img src="./Icons/telephone.svg" alt="Telephone icon">
+                                                </span>
+                                                <div class="contact-text">                                        
+                                                    <b class="contact-title">Leverkusen, Rheinisch-Bergischer & Oberbergischer Kreis</b>
+                                                    <span>Klinik Holweide</span>
+                                                    <span class="contact-number">+49 221-8907-0</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-flex justify-content-end align-items-center">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d394.3634828024227!2d6.949419670363512!3d51.10587600428765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf2d711d298655%3A0xb97f53b4f76b1a68!2sFr%C3%B6belstra%C3%9Fe%2024%2C%2040764%20Langenfeld%20(Rheinland)%2C%20Germany!5e1!3m2!1sen!2suk!4v1750069047346!5m2!1sen!2suk" width="100%" height="300" style="border:0; max-width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+        </div>
+    </main>
+
+
+    <!--Footer-->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-white"> 
+        <ul class="nav flex-column col-md-4 justify-content-start">
+            <li class="nav-item">
+                <a href="https://www.google.com/maps/search/?api=1&query=Fröbelstraße+24+40764+Langenfeld" target="_blank" style="text-decoration: none; color: inherit;">KJP Praxis Morschel</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.google.com/maps/search/?api=1&query=Fröbelstraße+24+40764+Langenfeld" target="_blank" style="text-decoration: none; color: inherit;">Fröbelstraße 24</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.google.com/maps/search/?api=1&query=Fröbelstraße+24+40764+Langenfeld" target="_blank" style="text-decoration: none; color: inherit;">40764 Langenfeld</a>
+            </li>
+        </ul>
+
+        <img src="./Images/Morschel-logo-klein.png" height="40px" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+
+        <ul class="nav flex-column col-md-4 align-items-end">
+            <li class="nav-item">
+                <a href="tel:021732077917" style="text-decoration: none; color: inherit;">Telefon: 0 21 73 - 20 77 917</a>
+            </li>
+            <li class="nav-item">
+                <a href="mailto:a.morschel@t-online.de" style="text-decoration: none; color: inherit;">Email: a.morschel@t-online.de</a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
