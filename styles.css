@@ -193,8 +193,8 @@ main {
 
 @media (min-width: 768px) {
     footer .nav-item a {
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 50px;
+        padding-left: 50px;
         display: inline-block;
     }
 }
