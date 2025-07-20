@@ -206,3 +206,12 @@ main {
         display: inline-block;
     }
 }
+
+@media (max-width: 768px) {
+    .featurette .col-md-7 {
+        order: 2 !important;
+    }
+    .featurette .col-md-5 {
+        order: 1 !important;
+    }
+}
