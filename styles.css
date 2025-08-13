@@ -24,13 +24,6 @@ main {
     background: none;
 }
 
-#schwebender-knopf {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-}
-
 .mehr-erfahren-box {
     display: flex;
     flex-wrap: wrap;
@@ -157,9 +150,9 @@ main {
 .contact-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1rem;
-  width: fit-content;
+  width: 100%;
 }
 
 .contact-text {
@@ -177,9 +170,10 @@ main {
 }
 
 .contact-button {
+    flex: 0 0 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     width: 3rem;
     height: 3rem;
     border-radius: 0.5rem;
@@ -215,3 +209,86 @@ main {
         order: 1 !important;
     }
 }
+
+.contact-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-card {
+    display: inline-block;
+    width: fit-content;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.contact-card-content {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.contact-card-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-card-title {
+    color: red;
+    font-weight: bold;
+}
+
+.contact-card-number {
+    font-size: 1rem;
+}
+
+.contact-card-icon img {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    .contact-card {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .contact-card-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-card-icon {
+        margin-top: 0.5rem;
+    }
+
+    #footerright {
+      align-items: start;
+    }
+    .mobile-break {
+      display: block;
+      margin-left: 24px;
+    }
+}
+
+@media(min-width: 769px) {
+    #footerright {
+      align-items: end;
+    }
+    .mobile-break {
+      display: inline;
+    }
+  }
