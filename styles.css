@@ -191,6 +191,10 @@ main {
         padding-left: 50px;
         display: inline-block;
     }
+    .logo-text-position-variator {
+      gap: 10px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -198,6 +202,10 @@ main {
         padding-right: 10px;
         padding-left: 10px;
         display: inline-block;
+    }
+    .logo-text-position-variator {
+      margin:0 -3px;
+      gap: 0px;
     }
 }
 
